@@ -9,7 +9,12 @@ const routes: Routes = [
   },
   {
     path: 'accordion/:path',
-    loadChildren: () => import('./details/details.module').then( m => m.DetailsPageModule)
+    // loadChildren: () => import('./details/details.module').then( m => m.DetailsPageModule)
+    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
+  },
+  {
+    path: 'test',
+    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
   }
 
   //? OLD
