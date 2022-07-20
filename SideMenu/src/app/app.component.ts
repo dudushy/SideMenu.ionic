@@ -17,7 +17,6 @@ export class AppComponent {
     private navCtrl: NavController
   ) {}
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function, @typescript-eslint/no-unused-vars
   open(path) {
     const encoded = encodeURIComponent(path);
 
