@@ -13,8 +13,15 @@
                 <ion-item slot="header"> Javascript </ion-item>
 
                 <ion-list slot="content">
-                  <ion-item>Test</ion-item>
-                  <ion-item>Test</ion-item>
+                  <ion-item button (click)="open('Languages/Javascript/Angular')">
+                    <ion-label>Angular</ion-label>
+                  </ion-item>
+                  <ion-item button (click)="open('Languages/Javascript/Vue')">
+                    <ion-label>Vue</ion-label>
+                  </ion-item>
+                  <ion-item button (click)="open('Languages/Javascript/React')">
+                    <ion-label>React</ion-label>
+                  </ion-item>
                 </ion-list>
               </ion-accordion>
             </ion-accordion-group>

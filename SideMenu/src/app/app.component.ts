@@ -18,7 +18,13 @@ export class AppComponent {
   ) {}
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function, @typescript-eslint/no-unused-vars
-  open(path) {}
+  open(path) {
+    const encoded = encodeURIComponent(path);
+
+    this.navCtrl.setDirection('root');
+    this.router.navigateByUrl(`/accordion/${encoded}`);
+    this.menuCtrl.toggle();
+  }
 
   //? OLD
   // public appPages = [
