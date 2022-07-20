@@ -6,10 +6,6 @@ Learning how to use side menu in Ionic Framework.
 
 ---
 
-1. ```bash
+```bash
     bash steps.sh
-    ```
-
-1. ```bash
-    bash init_eslint.sh
-    ```
+```
