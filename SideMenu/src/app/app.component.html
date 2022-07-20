@@ -1,7 +1,45 @@
 <ion-app>
   <ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content">
-      sidemenu context
+      <!--! Menu Content [BEGIN]-->
+
+      <ion-accordion-group>
+        <ion-accordion>
+          <ion-item slot="header"> Languages </ion-item>
+
+          <div slot="content">
+            <ion-accordion-group>
+              <ion-accordion>
+                <ion-item slot="header"> Javascript </ion-item>
+
+                <ion-list slot="content">
+                  <ion-item>Test</ion-item>
+                  <ion-item>Test</ion-item>
+                </ion-list>
+              </ion-accordion>
+            </ion-accordion-group>
+          </div>
+        </ion-accordion>
+
+        <ion-accordion>
+          <ion-item slot="header"> Whatever </ion-item>
+
+          <div slot="content">
+            <ion-accordion-group>
+              <ion-accordion>
+                <ion-item slot="header"> Javascript </ion-item>
+
+                <ion-list slot="content">
+                  <ion-item>Test</ion-item>
+                  <ion-item>Test</ion-item>
+                </ion-list>
+              </ion-accordion>
+            </ion-accordion-group>
+          </div>
+        </ion-accordion>
+      </ion-accordion-group>
+
+      <!--! Menu Content [END]-->
     </ion-menu>
 
     <!-- Router outlet for main content -->
