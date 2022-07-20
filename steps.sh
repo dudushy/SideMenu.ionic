@@ -4,7 +4,7 @@ echo "---------------------"
 ionic start SideMenu sidemenu --type=angular
 cd ./SideMenu
 echo ""
-echo "cd ./SideMenu"
+echo "[steps.sh] cd ./SideMenu"
 echo ""
 
 ionic g page details
