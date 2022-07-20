@@ -1,6 +1,8 @@
 echo "- [steps.sh] STARTED -"
 echo "---------------------"
 
+npm install -g @ionic/cli
+
 ionic start SideMenu sidemenu --type=angular
 cd ./SideMenu
 echo ""
